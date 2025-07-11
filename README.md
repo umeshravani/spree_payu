@@ -1,4 +1,4 @@
-Spree PayU
+Spree 5.1 PayU India
 ====================
 
 PayU payment system for Spree (5.1)
@@ -8,7 +8,7 @@ Install
 
 Add to your Gemfile:
 
-    gem 'spree_payu'
+    gem 'spree_payu', git: 'https://github.com/umeshravani/spree_payu'
 
 and run
 
