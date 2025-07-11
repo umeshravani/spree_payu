@@ -1,0 +1,5 @@
+---
+hi:
+  payu:
+    info: 'PayU India के माध्यम से भुगतान जारी रखें'
+    redirect_to_payment: 'PayU India भुगतान पर रीडायरेक्ट करें'

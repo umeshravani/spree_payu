@@ -1,0 +1,18 @@
+<%# This is a basic order summary page. Add your normal order details below. %>
+
+<% payment = @order.payments.last %>
+<% if payment.present? %>
+  <% if payment.state == 'completed' %>
+    <div class="alert alert-success">Payment Successful! Thank you for your order.</div>
+  <% elsif payment.state == 'failed' || payment.state == 'invalid' || payment.state == 'void' %>
+    <div class="alert alert-danger">Payment Failed. Please try again or contact support.</div>
+  <% elsif payment.state == 'pending' %>
+    <div class="alert alert-warning">Your payment is pending. Please wait or contact support if this takes too long.</div>
+  <% end %>
+<% end %>
+
+<%# Add your existing order summary details here %>
+<h1>Order <%= @order.number %></h1>
+<p>Status: <%= @order.state %></p>
+<p>Total: <%= @order.display_total.to_html %></p>
+<%# ...rest of your order details... %>

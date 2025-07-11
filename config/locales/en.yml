@@ -1,0 +1,11 @@
+---
+en:
+  payu:
+    info: 'Continue to pay using PayU India'
+    redirect_to_payment: 'Redirect to PayU India payment'
+  preferences:
+    payu_client_id: "PayU Live Key"
+    payu_client_secret: "PayU Live Salt"
+    test_payu_client_id: "PayU Test Key"
+    test_payu_client_secret: "PayU Test Salt"
+    test_mode: "Use Test Mode?"

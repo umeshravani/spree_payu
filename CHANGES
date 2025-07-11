@@ -1,0 +1,73 @@
+Version 1.7.0:
+
+
+Version 1.6.0:
+
+
+Version 1.5.0:
+ - Merge branch 'release-1.4.0'
+ - Added capture void payment
+ - Merge branch 'master' into develop
+
+Version 1.3.6:
+
+
+Version 1.3.5:
+ - Fixed notifyUrl
+
+Version 1.3.4:
+
+
+Version 1.3.3:
+ - Merge branch 'hotfix-1.3.2'
+ - Merge branch 'release-1.3.0'
+ - Merge branch 'release-1.2.0'
+ - Merge branch 'release-1.1.0'
+ - Merge branch 'release-1.0.0'
+
+Version 1.3.2:
+
+
+Version 1.3.0:
+ - Fixed routes
+ - Fixed CHANGES
+ - Merge branch 'release-1.2.0' into develop
+ - Merge branch 'release-1.2.0'
+ - Merge branch 'release-1.1.0'
+ - Merge branch 'release-1.0.0'
+
+Version 1.2.0:
+ - Fixed readme
+ - Merge remote-tracking branch 'origin/develop' into develop
+ - Fixed language name cs
+ - Fixed authors
+ - Merge branch 'release-1.1.0' into develop
+ - Merge branch 'release-1.1.0'
+ - Merge branch 'release-1.0.0'
+
+Version 1.1.0:
+ - Merge branch 'release-1.0.0' into develop
+ - Fixed gemspec docs
+ - Merge branch 'release-1.0.0'
+
+Version 1.0.0:
+ - Added changelog
+ - Add fixed rubygems
+ - Add github workflow
+ - Add github workflow
+ - Add github workflow
+ - Add github workflow
+ - Add github workflow
+ - Fixed gemspec names
+ - FIxed ip address
+ - Fixed verify_transaction
+ - Merge remote-tracking branch 'origin/develop' into develop
+ - Fixed comment
+ - Remove License text
+ - Update LICENSE
+ - Merge branch 'master' into develop
+ - Init commit
+ - Init commit
+ - Init commit
+ - Init commit
+

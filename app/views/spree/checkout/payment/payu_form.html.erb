@@ -1,0 +1,26 @@
+<style>
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full screen height */
+    text-align: center;
+  }
+</style>
+
+<div class="center-container">
+  <h3>Redirecting to PayU India...</h3>
+  <form id="payu_form" action="<%= @payu_url %>" method="post">
+    <% @payu_payload.each do |key, value| %>
+      <input type="hidden" name="<%= key %>" value="<%= value %>" />
+    <% end %>
+    <noscript>
+      <input type="submit" value="Click here if you are not redirected automatically" />
+    </noscript>
+  </form>
+</div>
+
+<script>
+  document.getElementById('payu_form').submit();
+</script>
