@@ -1,3 +1,5 @@
+Note: this Plugin has minor errors related to Checkout page, this can capture payments but if used for Live store i recommend to check live payment status and proceed orders.
+
 Spree 5.1 PayU India
 ====================
 
